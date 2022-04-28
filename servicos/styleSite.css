@@ -1,0 +1,472 @@
+body {
+    font: 700 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    background-color: rgb(21, 20, 20);
+    color: rgb(187, 187, 187);
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    /* width da barra */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(21, 20, 20);
+    /* Cor de fundo */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(49, 49, 49);
+    /* Cor da barra */
+    border-radius: 10px;
+    /* curvatura da barra */
+}
+
+.banner {
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bannerdash {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container {
+    box-shadow: rgb(0, 0, 0) 0px 0px 50px 0px;
+    border-radius: 55px;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(img/logolux.png);
+    width: 200px;
+    height: 100px;
+    background-size: 200px;
+    margin-left: 50px;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    background-image: url('img/lampada.png');
+    background-size: 50px;
+}
+
+.principal {
+    font-size: 50px;
+    margin-top: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+
+.descricao {
+    margin-top: 10px;
+    color: #E5E5E5;
+    margin-bottom: 50px;
+}
+
+.botoes_abaixo a {
+    text-decoration: none;
+    color: #E5E5E5;
+}
+
+.botoes_abaixo {
+    justify-content: space-between;
+    display: flex;
+    width: 525px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao1 {
+    background-color: #14213D;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-radius: 55px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.botao2 {
+    border: 3px solid white;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 55px;
+    border-radius: 55px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.abas {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 33vw;
+    height: 33vh;
+    align-items: center;
+}
+
+.abas a {
+    text-decoration: none;
+    color: white;
+}
+
+.link {
+    background-color: rgb(216, 216, 216);
+    width: 50px;
+    height: 50px;
+    border-radius: 55px;
+    margin-right: 5vw;
+}
+
+.usuario {
+    background-image: url('img/personIcon.png');
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.botoes_logcad a {
+    text-decoration: none;
+    color: rgb(217, 217, 217);
+    list-style: none;
+}
+
+.envolto {
+    background-color: #FCA311;
+    width: 40vw;
+    height: 60px;
+    border-radius: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -130px;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+.logoLogCad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.cardPai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.786);
+    box-shadow: 100px;
+}
+
+.card {
+    background-color: #FCA311;
+    height: 65vh;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardCad .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 65vw;
+}
+
+.card h3 {
+    color: rgba(0, 0, 0, 0.628);
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card input {
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: rgb(255, 166, 0);
+    background-color: rgb(217, 217, 217);
+    height: 3vh;
+    width: 15vw;
+    display: flex;
+    justify-content: right;
+}
+
+.card button {
+    margin-top: 40px;
+    background-color: rgb(217, 217, 217);
+    height: 5vh;
+    width: 5vw;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2vh;
+    margin-left: 5%;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(21, 20, 20);
+}
+
+.card h6 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.786);
+}
+
+.cardCad .outros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.50vh;
+    margin-right: 5%;
+}
+
+.inputs_calculadora {
+    background-color: #2D2B23;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 32px;
+    box-shadow: 0px 4px 79px 29px rgba(255, 199, 39, 0.32);
+}
+
+.cards_calculadora {
+    background-color: #FFF4D4;
+    margin: 8vw;
+    height: 70vh;
+    border-radius: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 79px 29px rgba(255, 199, 39, 0.32);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.inputs_calculadora input {
+    width: 50%;
+    height: 48px;
+    border-radius: 8px;
+    margin-right: 125px;
+    padding: 8px 16px;
+}
+
+.inputs_calculadora h2 {
+    font-size: 100%;
+}
+
+.inputs_calculadora h3 {
+    position: relative;
+    top: 25px;
+    right: 150px;
+    font-size: 10px;
+}
+
+.inputs_calculadora .economizar {
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(255, 166, 0);
+    width: 191px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 85%;
+}
+
+.inputs_calculadora .botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs_calculadora .botoes button {
+    width: 50px;
+    height: 50px;
+}
+
+.botoes .valor {
+    color: green;
+}
+
+.footer {
+    background-color: #606154;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 500px;
+    flex-direction: row;
+}
+
+.coluna1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.coluna2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    height: 10%;
+}
+
+.footer .logolink {
+    margin-top: 5%;
+    margin-left: 75px;
+    width: 20%;
+}
+
+.footer .logo {
+    width: 150px;
+    height:75px;
+    background-size: 150px;
+    margin-left: 0px;
+}
+
+.textofooter1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70%;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.textofooter2 {
+    display: flex;
+    font-weight: 400;
+    font-size: 60%;
+    align-items: flex-end;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 235px;
+}
+
+.footer .footerlinks a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    font-weight: 300;
+}
+
+#titulo_servico
+{
+    text-align: center;
+    
+}
+
+.produto_pai
+{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+}
+
+.div_produto1
+{
+    background-color: #FFF4D4;
+    color: #14213D;
+    height: 500px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.div_produto
+{
+    background-color: #FFF4D4;
+    color: #14213D;
+    height: 500px;
+    width: 260px;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+}
+
+.div_icon
+{
+    
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  background-color: #E5E5E5;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.icon
+{
+
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    
+}
+
+.subt
+{
+    color: #14213D;
+}
+
+.span_corpo
+{
+ color: #2D2B23;
+}
+
